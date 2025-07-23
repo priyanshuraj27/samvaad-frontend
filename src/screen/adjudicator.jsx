@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, useParams } from 'react-router-dom';
 import { Award, ChevronsRight, ArrowLeft, Scale, Presentation, BrainCircuit, UserCheck, Star, MessageSquareQuote, Clock, Users, Shield, Swords } from 'lucide-react';
-import axiosInstance from '../utils/axiosinstance';
+import axiosInstance from '../utils/axiosInstance';
 
 // --- UI COMPONENTS (Card, ScoreBar) ---
 const Card = ({ children, className = '' }) => (
